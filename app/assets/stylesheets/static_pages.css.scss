@@ -8,7 +8,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #000;
+    color: #50011F;
     background-color: #FFF;
 }
 
@@ -110,7 +110,7 @@ a:focus {
     background-color: rgba(255,255,255,.3);
 }
 
-@media(min-width:767px) {
+@media(min-width:767px) {upp
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
@@ -138,7 +138,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #000;
-    background: image-url("landing-page.jpg") no-repeat bottom center scroll;
+    background: image-url("landing-page-white.jpg") no-repeat bottom center scroll;
     background-color: #FFF;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -152,6 +152,8 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
+	color: #50011F;
+	font-family: 'Pacifico', cursive;
     font-size: 40px;
 }
 
@@ -179,10 +181,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #000;
+    border: 2px solid #50011F;
     border-radius: 35px;
     font-size: 40px;
-    color: #000;
+    color: #50011F;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -192,7 +194,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #000;
+    color: #50011F;
     background: rgba(255,255,255,.1);
 }
 
@@ -255,9 +257,8 @@ a:focus {
 .download-section {
     width: 100%;
     padding: 50px 0;
-    color: #000;
-    background: image-url("downloads-bg.jpg") no-repeat center center scroll;
-    background-color: #FFF;
+    color: #F2EDDC;
+    background-color: #50011F;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
